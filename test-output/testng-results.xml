@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-10-22T23:21:54 EET" name="Default suite" finished-at="2021-10-22T23:22:15 EET" duration-ms="20694">
+    <groups>
+    </groups>
+    <test started-at="2021-10-22T23:21:54 EET" name="Default test" finished-at="2021-10-22T23:22:15 EET" duration-ms="20694">
+      <class name="tests.LoginTestWithDataDriven">
+        <test-method is-config="true" signature="setBrowserType(java.lang.String)[pri:0, instance:tests.LoginTestWithDataDriven@6e9175d8]" started-at="2021-10-22T23:21:55 EET" name="setBrowserType" finished-at="2021-10-22T23:22:00 EET" duration-ms="5529" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setBrowserType -->
+        <test-method is-config="true" signature="loadLoginData()[pri:0, instance:tests.LoginTestWithDataDriven@6e9175d8]" started-at="2021-10-22T23:22:00 EET" name="loadLoginData" finished-at="2021-10-22T23:22:02 EET" duration-ms="1249" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadLoginData -->
+        <test-method signature="login()[pri:0, instance:tests.LoginTestWithDataDriven@6e9175d8]" started-at="2021-10-22T23:22:02 EET" name="login" finished-at="2021-10-22T23:22:13 EET" duration-ms="11091" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="tackeScreenShot()[pri:0, instance:tests.LoginTestWithDataDriven@6e9175d8]" started-at="2021-10-22T23:22:13 EET" name="tackeScreenShot" finished-at="2021-10-22T23:22:13 EET" duration-ms="317" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tackeScreenShot -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:tests.LoginTestWithDataDriven@6e9175d8]" started-at="2021-10-22T23:22:13 EET" name="quitDriver" finished-at="2021-10-22T23:22:15 EET" duration-ms="1734" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- tests.LoginTestWithDataDriven -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
