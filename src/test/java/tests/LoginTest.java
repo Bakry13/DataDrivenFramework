@@ -33,7 +33,7 @@ public class LoginTest extends LoginPage{
 	
 	@AfterMethod
 	public void tackeScreenShot()
-	{
+	{ 
 		screenshots.captureScreenShot("testScreenshot");
 	}
 }
