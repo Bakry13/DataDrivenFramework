@@ -53,7 +53,7 @@ public class LoginTestWithDataDriven extends LoginPage{
 	}
 	
 	@AfterMethod
-	public void tackeScreenShot(Scenario scenario)
+	public void tackeScreenShot()
 	{
 		screenshots.captureScreenShot("testScreenshot");
 	}

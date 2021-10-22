@@ -1,6 +1,5 @@
 package tests;
 
-import org.apache.groovy.test.ScriptTestAdapter;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
